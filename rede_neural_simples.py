@@ -24,3 +24,12 @@ resultado = (
 )
 
 print(f"Resultado calculado: {resultado}")
+
+# Função de ativação
+# O que decidirá a saída do modelo
+
+if resultado >= 60:
+    print("Aprovado")
+else: 
+    print("Reprovado")    
+
